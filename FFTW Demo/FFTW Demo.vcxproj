@@ -74,8 +74,8 @@
     <LibraryPath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\ArxosTouch\Documents\FFTW-Demo\FFTW Demo\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\ArxosTouch\Documents\FFTW-Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
