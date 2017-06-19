@@ -1,0 +1,12 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol __imp__alGenSources referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__alDeleteSources referenced in function "public: __thiscall Sound::~Sound(void)" (??1Sound@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__alSourcef referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__alSource3f referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__alSourcei referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__alSourcePlay referenced in function "public: void __thiscall Sound::play(void)" (?play@Sound@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__alGenBuffers referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__alDeleteBuffers referenced in function "public: __thiscall Sound::~Sound(void)" (??1Sound@@QAE@XZ)
+main.obj : error LNK2019: unresolved external symbol __imp__alBufferData referenced in function "public: __thiscall Sound::Sound(char *)" (??0Sound@@QAE@PAD@Z)
+D:\Visual Studios Projects\FFTW Demo\FFTW Demo\libs\OpenAL32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+D:\Visual Studios Projects\FFTW Demo\Debug\FFTW Demo.exe : fatal error LNK1120: 9 unresolved externals

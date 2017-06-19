@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\visual studios projects\fftw demo\fftw demo\main.cpp(39): warning C4305: 'initializing': truncation from 'double' to 'float'
+  FFTW Demo.vcxproj -> D:\Visual Studios Projects\FFTW Demo\x64\Debug\FFTW Demo.exe
+  FFTW Demo.vcxproj -> D:\Visual Studios Projects\FFTW Demo\x64\Debug\FFTW Demo.pdb (Partial PDB)
