@@ -156,7 +156,7 @@ public:
 private:
 	ALuint source, buffer;
 	ALenum format;
-	unsigned short audioFormat, channels;
+	unsigned short audioFormat, channels, blockAlign;
 	unsigned int sampleRate, byteRate, bitsPerSample, audioSize;
 	unsigned char* audioData;
 

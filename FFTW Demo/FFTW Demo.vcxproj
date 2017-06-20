@@ -74,8 +74,8 @@
     <LibraryPath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\ArxosTouch\Documents\FFTW-Demo\FFTW Demo\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\ArxosTouch\Documents\FFTW-Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Visual Studios Projects\FFTW Demo\FFTW Demo\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -94,7 +94,7 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>OpenAL32.lib;libfftw3-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OpenAL32.lib;libfftw3f-3.lib;libfftw3l-3.lib;libfftw3-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
